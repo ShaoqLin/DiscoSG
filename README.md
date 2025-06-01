@@ -31,6 +31,8 @@ I'd be happy to help you rewrite the README file with the additional content. Ho
 1. **Dataset Path Configuration**
    - In `detailcap_discosg_mr.py` at line 64, replace the path with files from the `DiscoSG_datasets` directory
    - This ensures proper dataset loading for inference
+   - In `dataset_utils.py` at line 136 and 167, replace the path with files from the `DiscoSG_datasets` directory.
+   - Use the same dataset setting with [Detailcaps](https://github.com/foundation-multimodal-models/CAPTURE) and [Caparena](https://github.com/njucckevin/CapArena)
 
 2. **Fast Inference with Reusable Graphs**
    
@@ -61,9 +63,15 @@ I'd be happy to help you rewrite the README file with the additional content. Ho
    
    **These materials allow researchers to verify our inference results**
 
+4. **CAPTURE Metric**
+
+   Get and replace capture.py from [CAPTURE](https://github.com/foundation-multimodal-models/CAPTURE) with capture.py in our repo.
+
 ### Directory Structure
 ```
 ├── detailcap_discosg_mr.py
+├── caparena_mr.py
+├── discourse_foil_acc_mr.py
 ├── DiscoSG_datasets/
 │   └── [dataset files]
 ├── reusable_graph/
