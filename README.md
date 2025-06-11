@@ -22,8 +22,6 @@ Each instance in DiscoSG-DS is substantially richer than existing benchmarks, as
 - **Avg Trp/Obj/Rel**: average triples, objects, and relations per graph  
 - **Total Trp**: sum of all triples across the dataset
 
-I'd be happy to help you rewrite the README file with the additional content. However, I notice you haven't provided the original README content. I'll create a comprehensive README section based on the information you've provided:
-
 ## Quick Start Guide
 
 ### File Configuration
