@@ -78,3 +78,34 @@ Each instance in DiscoSG-DS is substantially richer than existing benchmarks, as
 └── logs/
     └── [inference logs]
 ```
+
+## Citation
+
+If you find the paper, the accompanying code, or the datasets beneficial, please acknowledge our work in your own research. Please use the following BibTeX entry for citation:
+
+```
+@inproceedings{li-etal-2023-factual,
+    title = "{FACTUAL}: A Benchmark for Faithful and Consistent Textual Scene Graph Parsing",
+    author = "Li, Zhuang  and
+      Chai, Yuyang  and
+      Zhuo, Terry Yue  and
+      Qu, Lizhen  and
+      Haffari, Gholamreza  and
+      Li, Fei  and
+      Ji, Donghong  and
+      Tran, Quan Hung",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-acl.398",
+    pages = "6377--6390",
+}
+@article{lin2025discosg,
+  title={DiscoSG: Towards Discourse-Level Text Scene Graph Parsing through Iterative Graph Refinement},
+  author={Lin, Shaoqing and Teng, Chong and Li, Fei and Ji, Donghong and Qu, Lizhen and Li, Zhuang},
+  journal={arXiv preprint arXiv:2506.15583},
+  year={2025}
+}
+```
