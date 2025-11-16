@@ -323,37 +323,6 @@ DiscoSG-Refiner-based metrics excel at detecting hallucinations in VLM outputs, 
 
 ---
 
-## 📁 Directory Structure
-
-```
-DiscoSG/
-├── detailcap_discosg_mr.py          # Main inference script for DetailCaps
-├── caparena_mr.py                    # CapArena evaluation script
-├── discourse_foil_acc_mr.py          # D-FOIL hallucination detection
-├── dataset_utils.py                  # Dataset utilities
-├── capture.py                        # Modified CAPTURE metric
-│
-├── DiscoSG_datasets/                 # Dataset files
-│   ├── train/                        # Training set (8,730 instances)
-│   │   ├── human_annotated/          # 300 human-annotated
-│   │   └── synthesized/              # 8,430 synthesized
-│   └── test/                         # Test sets (200 instances)
-│       ├── random/                   # Random test (100)
-│       └── length/                   # Length test (100)
-│
-├── reusable_graph/                   # Pre-computed graphs for fast inference
-│   ├── Disco_large_subsent_100.json
-│   ├── original_parse.json
-│   ├── sub_sentence_parse.json
-│   └── combined_parse.json
-│
-└── logs/                             # Inference logs and intermediate results
-    ├── inference_logs/
-    └── intermediate_graphs/
-```
-
----
-
 ## 📖 Citation
 
 If you find our work helpful, please cite our papers:
